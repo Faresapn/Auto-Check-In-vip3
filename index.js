@@ -120,6 +120,7 @@ const checkInPost = ( bearer, taskId) => new Promise((resolve, reject) => {
                  const authcuy='Bearer '+ tokenresult.data.token
                  console.log(authcuy)
 
+                 
                 await delay(1000)
                 console.log('Success login...')
                 console.log('Trying to checkin')
